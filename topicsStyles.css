@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    background-color: rgb(125, 194, 255);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("./lcsrs.png");
+    border-bottom: 1vh ridge rgb(255, 78, 25);
+    object-fit: cover;
+    object-position: 30% 0%;
+    width: 100vw;
+    height: 40vh;
+}
+
+header fieldset {
+    border: 0.5vh ridge rgb(255, 78, 25);
+    border-radius: 1vh;
+}
