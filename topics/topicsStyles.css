@@ -24,7 +24,24 @@ header {
     height: 40vh;
 }
 
+header .leftSide {
+    min-width: 60vw;
+}
+
+header .rightSide {
+    min-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 header fieldset {
     border: 0.5vh ridge rgb(255, 78, 25);
     border-radius: 1vh;
+}
+
+header .subContent {
+    min-height: 10vh;
+    min-width: 20vw;
 }

@@ -40,14 +40,23 @@ header p {
     letter-spacing: 1vw;
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 3px black;
-    @keyframes
+}
+
+header .headlines {
+    font-size: 2.5vw;
+    min-width: 60vw;
 }
 
 header .rightSide {
+    min-width: 20vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+header .subContent {
+    min-height: 10vh;
 }
 
 header iframe {
