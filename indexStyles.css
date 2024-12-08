@@ -29,6 +29,16 @@ header {
 }
 
 header fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    border: 0.5vh ridge rgb(255, 78, 25);
+    border-radius: 1vh;
+    padding: 1rem;
+}
+
+header fieldset a {
+    text-align: center;
     border: 0.5vh ridge rgb(255, 78, 25);
     border-radius: 1vh;
 }
